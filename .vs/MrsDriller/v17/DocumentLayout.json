@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Projects\\unity\\MrsDriller\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{05C11763-A4CD-125E-7BE4-2C0C32DF8F29}|Assembly-CSharp.csproj|c:\\projects\\unity\\mrsdriller\\assets\\scripts\\block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C11763-A4CD-125E-7BE4-2C0C32DF8F29}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\block.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C11763-A4CD-125E-7BE4-2C0C32DF8F29}|Assembly-CSharp.csproj|c:\\projects\\unity\\mrsdriller\\assets\\scripts\\blockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C11763-A4CD-125E-7BE4-2C0C32DF8F29}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\blockcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{05C11763-A4CD-125E-7BE4-2C0C32DF8F29}|Assembly-CSharp.csproj|c:\\projects\\unity\\mrsdriller\\assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{05C11763-A4CD-125E-7BE4-2C0C32DF8F29}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Block.cs",
+              "DocumentMoniker": "C:\\Projects\\unity\\MrsDriller\\Assets\\Scripts\\Block.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Block.cs",
+              "ToolTip": "C:\\Projects\\unity\\MrsDriller\\Assets\\Scripts\\Block.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Block.cs",
+              "ViewState": "AgIAAPsAAAAAAAAAAAAcwA0BAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T05:53:37.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BlockController.cs",
+              "DocumentMoniker": "C:\\Projects\\unity\\MrsDriller\\Assets\\Scripts\\BlockController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BlockController.cs",
+              "ToolTip": "C:\\Projects\\unity\\MrsDriller\\Assets\\Scripts\\BlockController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BlockController.cs",
+              "ViewState": "AgIAAI4AAAAAAAAAAAAcwJwAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T05:52:34.87Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Player.cs",
+              "DocumentMoniker": "C:\\Projects\\unity\\MrsDriller\\Assets\\Scripts\\Player.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player.cs",
+              "ToolTip": "C:\\Projects\\unity\\MrsDriller\\Assets\\Scripts\\Player.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-08T05:50:30.895Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

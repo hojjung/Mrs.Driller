@@ -1,8 +1,10 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using System;
 
-public class Block : MonoBehaviour {
+public class Block : MonoBehaviour ,IComparable<Block>
+{
     public enum Type {
         Blue = 0, Green, Pink, Yellow,
         // Hard,
@@ -141,13 +143,13 @@ public class Block : MonoBehaviour {
         set {
             this._type = value;
             if (value == Type.Empty) {
-                renderer.enabled = false;
+                GetComponent<Renderer>().enabled = false;
             // } else if (value == Type.Hard) {
             //     renderer.material = this.hardMaterial;
             //     this.stamina = 5;
             } else {
-                renderer.enabled = true;
-                renderer.material = this.colorMaterials[(int)value];
+                GetComponent<Renderer>().enabled = true;
+                GetComponent<Renderer>().material = this.colorMaterials[(int)value];
             }
         }
     }
@@ -247,16 +249,24 @@ public class Block : MonoBehaviour {
 
     IEnumerator GetBlinkEnumerator(float blinkTime) {
         float beforeBlink = Time.time;
-        Color color = renderer.material.color;
+        Color color = GetComponent<Renderer>().material.color;
 
         while (Time.time - beforeBlink < blinkTime) {
             float alpha = Mathf.Sin(Time.time * 1000.0f);
             color.a = alpha;
-            renderer.material.color = color;
+            GetComponent<Renderer>().material.color = color;
 
             yield return true;
         }
         color.a = 255;
-        renderer.material.color = color;
+        GetComponent<Renderer>().material.color = color;
+    }
+
+    public int CompareTo(Block other)
+    {
+        if (other == null) return 1;
+
+        // 예시: pos.y 값 기준으로 비교
+        return this.pos.y.CompareTo(other.pos.y);
     }
 } 

@@ -2,7 +2,7 @@ using UnityEngine;
 using System.Collections;
 
 public class ScoreCounter : MonoBehaviour {
-    public GUIText meterText;
+    //public GUIText meterText;
 
     Player player;
 
@@ -14,6 +14,6 @@ public class ScoreCounter : MonoBehaviour {
     
     // Update is called once per frame
     void Update() {
-        this.meterText.text = this.player.pos.y.ToString("F1");
+        //this.meterText.text = this.player.pos.y.ToString("F1");
     }
 }
